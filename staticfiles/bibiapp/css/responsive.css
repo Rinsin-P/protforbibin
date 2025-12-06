@@ -1,0 +1,545 @@
+/* ===== RESPONSIVE DESIGN CSS ===== */
+
+/* ===== EXTRA LARGE DEVICES (1200px and up) ===== */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    
+    .hero-section h1 {
+        font-size: 4rem;
+    }
+    
+    .hero-section p {
+        font-size: 1.5rem;
+    }
+}
+
+/* ===== LARGE DEVICES (992px and up) ===== */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hero-section h1 {
+        font-size: 3.5rem;
+    }
+    
+    .feature-card {
+        margin-bottom: 30px;
+    }
+    
+    .testimonial-card {
+        padding: 40px 20px;
+    }
+}
+
+/* ===== MEDIUM DEVICES (768px and up) ===== */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 3rem;
+    }
+    
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+    
+    .cta-buttons .btn {
+        margin: 5px;
+        padding: 10px 25px;
+    }
+    
+    .feature-card {
+        margin-bottom: 25px;
+    }
+    
+    .testimonial-item {
+        padding: 30px 15px;
+    }
+    
+    .newsletter-form .input-group {
+        max-width: 400px;
+    }
+    
+    .team-member {
+        margin-bottom: 30px;
+    }
+    
+    .contact-form-wrapper {
+        margin-bottom: 40px;
+    }
+    
+    .stat-item {
+        margin-bottom: 30px;
+    }
+    
+    .counter {
+        font-size: 2.8rem;
+    }
+}
+
+/* ===== SMALL DEVICES (576px and up) ===== */
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+    
+    .hero-section {
+        padding: 50px 0;
+        text-align: center;
+    }
+    
+    .hero-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    
+    .hero-section p {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+    
+    .cta-buttons {
+        text-align: center;
+    }
+    
+    .cta-buttons .btn {
+        display: inline-block;
+        margin: 8px 5px;
+        width: auto;
+        min-width: 150px;
+    }
+    
+    .feature-card {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    
+    .feature-card i {
+        font-size: 2.5rem !important;
+    }
+    
+    .testimonial-item {
+        padding: 25px 10px;
+    }
+    
+    .testimonial-card .card {
+        padding: 30px 20px;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .newsletter-form .input-group {
+        max-width: 350px;
+    }
+    
+    .newsletter-form .form-control {
+        padding: 10px 15px;
+    }
+    
+    .team-member {
+        margin-bottom: 25px;
+    }
+    
+    .contact-item {
+        margin-bottom: 25px;
+    }
+    
+    .contact-form .btn {
+        width: 100%;
+    }
+    
+    .stat-item {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    
+    .counter {
+        font-size: 2.5rem;
+    }
+    
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .scroll-down-button {
+        display: none;
+    }
+    
+    #backToTop {
+        bottom: 15px;
+        right: 15px;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* ===== EXTRA SMALL DEVICES (575px and down) ===== */
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .navbar {
+        padding: 8px 0;
+    }
+    
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    .navbar-toggler {
+        font-size: 1rem;
+        padding: 4px 8px;
+    }
+    
+    .hero-section {
+        padding: 40px 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    
+    .hero-section p {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+    
+    .cta-buttons .btn {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+    
+    .feature-card {
+        margin-bottom: 20px;
+        padding: 20px 15px;
+        text-align: center;
+    }
+    
+    .feature-card h4 {
+        font-size: 1.3rem;
+    }
+    
+    .feature-card i {
+        font-size: 2rem !important;
+        margin-bottom: 15px;
+    }
+    
+    .testimonial-item {
+        padding: 20px 5px;
+    }
+    
+    .testimonial-card .card {
+        padding: 25px 15px;
+        margin: 0 10px;
+    }
+    
+    .testimonial-card img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .testimonial-card .lead {
+        font-size: 1rem;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+    
+    .carousel-indicators {
+        margin-bottom: 0;
+    }
+    
+    .newsletter-section {
+        padding: 40px 0;
+    }
+    
+    .newsletter-section h3 {
+        font-size: 1.5rem;
+    }
+    
+    .newsletter-form .input-group {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .newsletter-form .form-control,
+    .newsletter-form .btn {
+        border-radius: 25px;
+        margin: 5px 0;
+        width: 100%;
+    }
+    
+    .newsletter-form .form-control {
+        text-align: center;
+    }
+    
+    .team-member {
+        margin-bottom: 20px;
+    }
+    
+    .team-member .card-body {
+        padding: 20px 15px;
+    }
+    
+    .social-links a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin: 0 3px;
+    }
+    
+    .contact-section {
+        padding: 40px 0;
+    }
+    
+    .contact-item {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .contact-item .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .contact-icon {
+        margin: 0 0 15px 0 !important;
+    }
+    
+    .contact-form .row .col-md-6 {
+        margin-bottom: 15px;
+    }
+    
+    .contact-form .btn {
+        width: 100%;
+        padding: 12px;
+    }
+    
+    .stat-item {
+        margin-bottom: 30px;
+        padding: 20px 10px;
+    }
+    
+    .counter {
+        font-size: 2rem;
+    }
+    
+    .page-header {
+        padding: 30px 0;
+    }
+    
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .breadcrumb {
+        font-size: 0.9rem;
+    }
+    
+    footer {
+        padding: 30px 0;
+    }
+    
+    footer .row > div {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    footer h5 {
+        font-size: 1.2rem;
+    }
+    
+    #backToTop {
+        bottom: 10px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    /* Navigation adjustments */
+    .navbar-nav {
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .nav-item {
+        margin: 5px 0;
+    }
+    
+    .nav-link {
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 2px 0;
+    }
+    
+    /* Card adjustments */
+    .card {
+        margin-bottom: 15px;
+    }
+    
+    .card-body {
+        padding: 15px;
+    }
+    
+    /* Form adjustments */
+    .form-control {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+    
+    .form-label {
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    
+    /* Button adjustments */
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .btn-lg {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+    
+    /* Typography adjustments */
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.5rem; }
+    h4 { font-size: 1.25rem; }
+    h5 { font-size: 1.1rem; }
+    
+    .lead {
+        font-size: 1rem;
+    }
+    
+    /* Spacing adjustments */
+    .py-5 {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    
+    .mb-5 {
+        margin-bottom: 30px !important;
+    }
+    
+    .mt-5 {
+        margin-top: 30px !important;
+    }
+}
+
+/* ===== LANDSCAPE ORIENTATION (MOBILE) ===== */
+@media (max-width: 767px) and (orientation: landscape) {
+    .hero-section {
+        min-height: auto;
+        padding: 30px 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-section p {
+        font-size: 0.9rem;
+    }
+    
+    .cta-buttons .btn {
+        display: inline-block;
+        width: auto;
+        margin: 5px;
+        padding: 8px 20px;
+    }
+    
+    .navbar {
+        padding: 5px 0;
+    }
+}
+
+/* ===== PRINT STYLES ===== */
+@media print {
+    .navbar,
+    .scroll-down-button,
+    #backToTop,
+    .newsletter-section,
+    .cta-buttons {
+        display: none !important;
+    }
+    
+    .hero-section {
+        background: none !important;
+        color: #000 !important;
+        padding: 20px 0;
+    }
+    
+    .page-header {
+        background: none !important;
+        color: #000 !important;
+        border-bottom: 2px solid #000;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: #000 !important;
+        page-break-after: avoid;
+    }
+    
+    .card {
+        border: 1px solid #000 !important;
+        break-inside: avoid;
+    }
+}
+
+/* ===== HIGH DPI DISPLAYS ===== */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Optimize images and icons for retina displays */
+    .hero-section {
+        background-size: cover;
+    }
+    
+    .testimonial-card img,
+    .team-member img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+}
+
+/* ===== REDUCED MOTION ===== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .scroll-down-button {
+        animation: none;
+    }
+    
+    .spinner {
+        animation: none;
+        border: 5px solid #007bff;
+    }
+}

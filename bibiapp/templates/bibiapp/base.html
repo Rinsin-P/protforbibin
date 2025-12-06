@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" class="no-js">
+<head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <title>{% block title %}Monica{% endblock %}</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static 'bibiapp/css/vendor.css' %}">
+    <link rel="stylesheet" href="{% static 'bibiapp/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'bibiapp/css/responsive.css' %}">
+    
+    {% block extra_css %}{% endblock %}
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'bibiapp/b.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'bibiapp/b.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'bibiapp/b.png' %}">
+    <link rel="manifest" href="{% static 'bibiapp/site.webmanifest' %}">
+
+</head>
+
+<body id="top">
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap {% block page_class %}{% endblock %}">
+
+        {% block content %}{% endblock %}
+
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="{% static 'bibiapp/js/plugins.js' %}"></script>
+    <script src="{% static 'bibiapp/js/main.js' %}"></script>
+    
+    {% block extra_js %}{% endblock %}
+
+</body>
+</html>
